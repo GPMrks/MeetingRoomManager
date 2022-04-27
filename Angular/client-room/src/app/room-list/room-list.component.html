@@ -6,11 +6,11 @@
         <table class="table table-striped">
             <thead>
                 <tr>
-                    <th>name</th>
-                    <th>date</th>
-                    <th>startingTime</th>
-                    <th>endingTime</th>
-                    <th>actions</th>
+                    <th>Name</th>
+                    <th>Date</th>
+                    <th>Starting Time</th>
+                    <th>Ending Time</th>
+                    <th>Actions</th>
                 </tr>
             </thead>
             <tbody>
@@ -22,7 +22,7 @@
                     <td>
                         <button (click)="deleteRoom(room.id)" class="btn btn-danger">Delete</button>
                         <button (click)="updateRoom(room.id)" class="btn btn-info" style="margin-left: 10px;">Update</button>
-                        <button (click)="roomDetails(room.id)" class="btn btn-info" style="margin-left: 10;">Details</button>
+                        <button (click)="roomDetails(room.id)" class="btn btn-info" style="margin-left: 10px;">Details</button>
                     </td>
                 </tr>
             </tbody>
