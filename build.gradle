@@ -6,7 +6,11 @@ plugins {
 
 group = 'javadev.bootcamp'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '11'
+
+java {
+	sourceCompatibility = "18"
+	targetCompatibility = "18"
+}
 
 configurations {
 	compileOnly {
