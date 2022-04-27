@@ -27,10 +27,17 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## Check nodejs version
+<<<<<<< HEAD
 node --version
 
 ### Check npm version
 npm --version
+=======
+node -v
+
+### Check npm version
+npm -v
+>>>>>>> 6f11dc7 (FIX - Separated Frontend and Backend)
 
 ### Install latest Angular version
 npm install -g @angular/cli
@@ -39,4 +46,8 @@ npm install -g @angular/cli
 ng --version
 
 ### Create project
+<<<<<<< HEAD
 ng new "name"
+=======
+ng new "name"
+>>>>>>> 6f11dc7 (FIX - Separated Frontend and Backend)
