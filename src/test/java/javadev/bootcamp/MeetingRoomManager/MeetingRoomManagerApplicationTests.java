@@ -13,8 +13,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
@@ -35,7 +34,7 @@ class MeetingRoomManagerApplicationTests {
 		List<Room> allRooms = roomService.getAllRooms();
 
 		// then - very output
-		Assertions.assertNotNull(allRooms);
+		assertNotNull(allRooms);
 	}
 
 	@Test
@@ -49,7 +48,7 @@ class MeetingRoomManagerApplicationTests {
 		Room roomById = roomService.getRoomById(savedRoom.getId());
 
 		// then - very output
-		Assertions.assertEquals(room.toString(), roomById.toString());
+		assertEquals(room.toString(), roomById.toString());
 	}
 
 	@Test
@@ -81,7 +80,7 @@ class MeetingRoomManagerApplicationTests {
 		Room savedRoom = roomService.createRoom(room);
 
 		// then - very output
-		Assertions.assertEquals(room.toString(), savedRoom.toString());
+		assertEquals(room.toString(), savedRoom.toString());
 	}
 
 	@Test
@@ -96,7 +95,7 @@ class MeetingRoomManagerApplicationTests {
 		Room updatedRoom = roomService.updateRoom(room.getId(), roomToUpdate);
 
 		// then - very output
-		Assertions.assertEquals(updatedRoom.toString(), roomToUpdate.toString());
+		assertEquals(updatedRoom.toString(), roomToUpdate.toString());
 	}
 
 	@Test
@@ -112,7 +111,7 @@ class MeetingRoomManagerApplicationTests {
 		response.put("Deleted", Boolean.TRUE);
 
 		// then - very output
-		Assertions.assertEquals(response, testResult);
+		assertEquals(response, testResult);
 	}
 
 }
