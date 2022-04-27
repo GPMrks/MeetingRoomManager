@@ -4,12 +4,8 @@ import javadev.bootcamp.MeetingRoomManager.exception.ResourceNotFoundException;
 import javadev.bootcamp.MeetingRoomManager.model.Room;
 import javadev.bootcamp.MeetingRoomManager.repository.RoomRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
 
-import javax.validation.Valid;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
