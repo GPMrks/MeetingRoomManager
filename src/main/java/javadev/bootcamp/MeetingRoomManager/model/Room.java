@@ -1,9 +1,12 @@
 package javadev.bootcamp.MeetingRoomManager.model;
 
+import lombok.Builder;
+
 import javax.persistence.*;
 
 @Entity
 @Table(name = "Room")
+@Builder
 public class Room {
 
     @Id
