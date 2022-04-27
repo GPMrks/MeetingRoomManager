@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/MeetingRoomManager-0.0.1-SNAPSHOT.jar
+web: java -jar -Dspring.profiles.active=production build/libs/MeetingRoomManager-0.0.1-SNAPSHOT.jar
