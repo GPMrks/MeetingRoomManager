@@ -26,17 +26,17 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-## verificar vesao nodejs
-node -v
+## Check nodejs version
+node --version
 
-### verificar versao npm
-npm -v
+### Check npm version
+npm --version
 
-### instalar angular 9
-npm install -g @angular/cli@9.0.0-rc.7
+### Install latest Angular version
+npm install -g @angular/cli
 
-### verificar versao angular
+### Check Angular version
 ng --version
 
-### criar projeto
-ng new client-room
+### Create project
+ng new "name"
